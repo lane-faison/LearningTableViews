@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F65ACDB92070B3A10030E906 /* TableViewWithSectionDeleteStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65ACDB82070B3A10030E906 /* TableViewWithSectionDeleteStoryboard.storyboard */; };
+		F65ACDBB2070B3B20030E906 /* TableViewWithSectionDeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65ACDBA2070B3B20030E906 /* TableViewWithSectionDeleteViewController.swift */; };
+		F65ACDC32073418D0030E906 /* TableViewWithInsert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65ACDC22073418D0030E906 /* TableViewWithInsert.storyboard */; };
+		F65ACDC5207341B30030E906 /* TableViewWithInsertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65ACDC4207341B30030E906 /* TableViewWithInsertViewController.swift */; };
+		F65ACDC72074897E0030E906 /* TableViewCustomCell.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65ACDC62074897E0030E906 /* TableViewCustomCell.storyboard */; };
+		F65ACDC9207489970030E906 /* TableViewCustomCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65ACDC8207489970030E906 /* TableViewCustomCellViewController.swift */; };
+		F65ACDCC2075BD7C0030E906 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65ACDCB2075BD7C0030E906 /* CustomTableViewCell.swift */; };
+		F67B254D206F566F005ABB31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67B254C206F566F005ABB31 /* AppDelegate.swift */; };
+		F67B254F206F566F005ABB31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67B254E206F566F005ABB31 /* ViewController.swift */; };
+		F67B2552206F566F005ABB31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67B2550206F566F005ABB31 /* Main.storyboard */; };
+		F67B2554206F566F005ABB31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67B2553206F566F005ABB31 /* Assets.xcassets */; };
+		F67B2557206F566F005ABB31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67B2555206F566F005ABB31 /* LaunchScreen.storyboard */; };
+		F67B2583206F56B6005ABB31 /* tomatoes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2560206F56B6005ABB31 /* tomatoes.jpg */; };
+		F67B2584206F56B6005ABB31 /* kale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2561206F56B6005ABB31 /* kale.jpg */; };
+		F67B2585206F56B6005ABB31 /* peas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2562206F56B6005ABB31 /* peas.jpg */; };
+		F67B2586206F56B6005ABB31 /* spinach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2563206F56B6005ABB31 /* spinach.jpg */; };
+		F67B2587206F56B6005ABB31 /* eggplant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2564206F56B6005ABB31 /* eggplant.jpg */; };
+		F67B2588206F56B6005ABB31 /* cabbage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2565206F56B6005ABB31 /* cabbage.jpg */; };
+		F67B2589206F56B6005ABB31 /* pumpkin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2566206F56B6005ABB31 /* pumpkin.jpg */; };
+		F67B258A206F56B6005ABB31 /* carrots.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2567206F56B6005ABB31 /* carrots.jpg */; };
+		F67B258B206F56B6005ABB31 /* carrots_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2569206F56B6005ABB31 /* carrots_small.jpg */; };
+		F67B258C206F56B6005ABB31 /* spinach_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B256A206F56B6005ABB31 /* spinach_small.jpg */; };
+		F67B258D206F56B6005ABB31 /* peas_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B256B206F56B6005ABB31 /* peas_small.jpg */; };
+		F67B258E206F56B6005ABB31 /* cabbage_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B256C206F56B6005ABB31 /* cabbage_small.jpg */; };
+		F67B258F206F56B6005ABB31 /* pumpkin_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B256D206F56B6005ABB31 /* pumpkin_small.jpg */; };
+		F67B2590206F56B6005ABB31 /* tomatoes_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B256E206F56B6005ABB31 /* tomatoes_small.jpg */; };
+		F67B2591206F56B6005ABB31 /* kale_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B256F206F56B6005ABB31 /* kale_small.jpg */; };
+		F67B2592206F56B6005ABB31 /* eggplant_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2570206F56B6005ABB31 /* eggplant_small.jpg */; };
+		F67B2593206F56B6005ABB31 /* fig_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2572206F56B6005ABB31 /* fig_small.jpg */; };
+		F67B2594206F56B6005ABB31 /* plum_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2573206F56B6005ABB31 /* plum_small.jpg */; };
+		F67B2595206F56B6005ABB31 /* strawberry_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2574206F56B6005ABB31 /* strawberry_small.jpg */; };
+		F67B2596206F56B6005ABB31 /* peach_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2575206F56B6005ABB31 /* peach_small.jpg */; };
+		F67B2597206F56B6005ABB31 /* blueberries_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2576206F56B6005ABB31 /* blueberries_small.jpg */; };
+		F67B2598206F56B6005ABB31 /* oranges_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2577206F56B6005ABB31 /* oranges_small.jpg */; };
+		F67B2599206F56B6005ABB31 /* apple_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2578206F56B6005ABB31 /* apple_small.jpg */; };
+		F67B259A206F56B6005ABB31 /* appricot_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2579206F56B6005ABB31 /* appricot_small.jpg */; };
+		F67B259B206F56B6005ABB31 /* peach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B257B206F56B6005ABB31 /* peach.jpg */; };
+		F67B259C206F56B6005ABB31 /* fig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B257C206F56B6005ABB31 /* fig.jpg */; };
+		F67B259D206F56B6005ABB31 /* blueberries.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B257D206F56B6005ABB31 /* blueberries.jpg */; };
+		F67B259E206F56B6005ABB31 /* oranges.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B257E206F56B6005ABB31 /* oranges.jpg */; };
+		F67B259F206F56B6005ABB31 /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B257F206F56B6005ABB31 /* apple.jpg */; };
+		F67B25A0206F56B6005ABB31 /* plum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2580206F56B6005ABB31 /* plum.jpg */; };
+		F67B25A1206F56B6005ABB31 /* strawberry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2581206F56B6005ABB31 /* strawberry.jpg */; };
+		F67B25A2206F56B6005ABB31 /* appricot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67B2582206F56B6005ABB31 /* appricot.jpg */; };
+		F67B25A4206F574F005ABB31 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67B25A3206F574F005ABB31 /* Food.swift */; };
+		F67B25A7206F57EB005ABB31 /* FruitsNVeggies.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67B25A6206F57EB005ABB31 /* FruitsNVeggies.swift */; };
+		F67B25AC2070A427005ABB31 /* ProgrammaticTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67B25AB2070A427005ABB31 /* ProgrammaticTableViewController.swift */; };
+		F67B25AF2070A7CA005ABB31 /* TableViewWithSectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67B25AE2070A7CA005ABB31 /* TableViewWithSectionsViewController.swift */; };
+		F67B25B12070A7E6005ABB31 /* TableViewWithSectionsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67B25B02070A7E6005ABB31 /* TableViewWithSectionsStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F65ACDB82070B3A10030E906 /* TableViewWithSectionDeleteStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewWithSectionDeleteStoryboard.storyboard; sourceTree = "<group>"; };
+		F65ACDBA2070B3B20030E906 /* TableViewWithSectionDeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewWithSectionDeleteViewController.swift; sourceTree = "<group>"; };
+		F65ACDC22073418D0030E906 /* TableViewWithInsert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewWithInsert.storyboard; sourceTree = "<group>"; };
+		F65ACDC4207341B30030E906 /* TableViewWithInsertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewWithInsertViewController.swift; sourceTree = "<group>"; };
+		F65ACDC62074897E0030E906 /* TableViewCustomCell.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewCustomCell.storyboard; sourceTree = "<group>"; };
+		F65ACDC8207489970030E906 /* TableViewCustomCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCustomCellViewController.swift; sourceTree = "<group>"; };
+		F65ACDCB2075BD7C0030E906 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		F67B2549206F566F005ABB31 /* TableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F67B254C206F566F005ABB31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F67B254E206F566F005ABB31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F67B2551206F566F005ABB31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F67B2553206F566F005ABB31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F67B2556206F566F005ABB31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F67B2558206F566F005ABB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F67B2560206F56B6005ABB31 /* tomatoes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomatoes.jpg; sourceTree = "<group>"; };
+		F67B2561206F56B6005ABB31 /* kale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kale.jpg; sourceTree = "<group>"; };
+		F67B2562206F56B6005ABB31 /* peas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = peas.jpg; sourceTree = "<group>"; };
+		F67B2563206F56B6005ABB31 /* spinach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spinach.jpg; sourceTree = "<group>"; };
+		F67B2564206F56B6005ABB31 /* eggplant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eggplant.jpg; sourceTree = "<group>"; };
+		F67B2565206F56B6005ABB31 /* cabbage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cabbage.jpg; sourceTree = "<group>"; };
+		F67B2566206F56B6005ABB31 /* pumpkin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pumpkin.jpg; sourceTree = "<group>"; };
+		F67B2567206F56B6005ABB31 /* carrots.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carrots.jpg; sourceTree = "<group>"; };
+		F67B2569206F56B6005ABB31 /* carrots_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carrots_small.jpg; sourceTree = "<group>"; };
+		F67B256A206F56B6005ABB31 /* spinach_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spinach_small.jpg; sourceTree = "<group>"; };
+		F67B256B206F56B6005ABB31 /* peas_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = peas_small.jpg; sourceTree = "<group>"; };
+		F67B256C206F56B6005ABB31 /* cabbage_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cabbage_small.jpg; sourceTree = "<group>"; };
+		F67B256D206F56B6005ABB31 /* pumpkin_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pumpkin_small.jpg; sourceTree = "<group>"; };
+		F67B256E206F56B6005ABB31 /* tomatoes_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomatoes_small.jpg; sourceTree = "<group>"; };
+		F67B256F206F56B6005ABB31 /* kale_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kale_small.jpg; sourceTree = "<group>"; };
+		F67B2570206F56B6005ABB31 /* eggplant_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eggplant_small.jpg; sourceTree = "<group>"; };
+		F67B2572206F56B6005ABB31 /* fig_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fig_small.jpg; sourceTree = "<group>"; };
+		F67B2573206F56B6005ABB31 /* plum_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plum_small.jpg; sourceTree = "<group>"; };
+		F67B2574206F56B6005ABB31 /* strawberry_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strawberry_small.jpg; sourceTree = "<group>"; };
+		F67B2575206F56B6005ABB31 /* peach_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = peach_small.jpg; sourceTree = "<group>"; };
+		F67B2576206F56B6005ABB31 /* blueberries_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueberries_small.jpg; sourceTree = "<group>"; };
+		F67B2577206F56B6005ABB31 /* oranges_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oranges_small.jpg; sourceTree = "<group>"; };
+		F67B2578206F56B6005ABB31 /* apple_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple_small.jpg; sourceTree = "<group>"; };
+		F67B2579206F56B6005ABB31 /* appricot_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appricot_small.jpg; sourceTree = "<group>"; };
+		F67B257B206F56B6005ABB31 /* peach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = peach.jpg; sourceTree = "<group>"; };
+		F67B257C206F56B6005ABB31 /* fig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fig.jpg; sourceTree = "<group>"; };
+		F67B257D206F56B6005ABB31 /* blueberries.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueberries.jpg; sourceTree = "<group>"; };
+		F67B257E206F56B6005ABB31 /* oranges.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oranges.jpg; sourceTree = "<group>"; };
+		F67B257F206F56B6005ABB31 /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
+		F67B2580206F56B6005ABB31 /* plum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plum.jpg; sourceTree = "<group>"; };
+		F67B2581206F56B6005ABB31 /* strawberry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strawberry.jpg; sourceTree = "<group>"; };
+		F67B2582206F56B6005ABB31 /* appricot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appricot.jpg; sourceTree = "<group>"; };
+		F67B25A3206F574F005ABB31 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		F67B25A6206F57EB005ABB31 /* FruitsNVeggies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsNVeggies.swift; sourceTree = "<group>"; };
+		F67B25AB2070A427005ABB31 /* ProgrammaticTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticTableViewController.swift; sourceTree = "<group>"; };
+		F67B25AE2070A7CA005ABB31 /* TableViewWithSectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewWithSectionsViewController.swift; sourceTree = "<group>"; };
+		F67B25B02070A7E6005ABB31 /* TableViewWithSectionsStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewWithSectionsStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F67B2546206F566F005ABB31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F65ACDB72070B3870030E906 /* TableViewWithSectionDeleteAndEdit */ = {
+			isa = PBXGroup;
+			children = (
+				F65ACDB82070B3A10030E906 /* TableViewWithSectionDeleteStoryboard.storyboard */,
+				F65ACDBA2070B3B20030E906 /* TableViewWithSectionDeleteViewController.swift */,
+			);
+			path = TableViewWithSectionDeleteAndEdit;
+			sourceTree = "<group>";
+		};
+		F65ACDC1207340570030E906 /* TableViewWithInsert */ = {
+			isa = PBXGroup;
+			children = (
+				F65ACDC22073418D0030E906 /* TableViewWithInsert.storyboard */,
+				F65ACDC4207341B30030E906 /* TableViewWithInsertViewController.swift */,
+			);
+			path = TableViewWithInsert;
+			sourceTree = "<group>";
+		};
+		F65ACDCA2074899E0030E906 /* TableViewCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				F65ACDC62074897E0030E906 /* TableViewCustomCell.storyboard */,
+				F65ACDC8207489970030E906 /* TableViewCustomCellViewController.swift */,
+				F65ACDCB2075BD7C0030E906 /* CustomTableViewCell.swift */,
+			);
+			path = TableViewCustomCell;
+			sourceTree = "<group>";
+		};
+		F67B2540206F566F005ABB31 = {
+			isa = PBXGroup;
+			children = (
+				F67B254B206F566F005ABB31 /* TableViewDemo */,
+				F67B254A206F566F005ABB31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F67B254A206F566F005ABB31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F67B2549206F566F005ABB31 /* TableViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F67B254B206F566F005ABB31 /* TableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F65ACDCA2074899E0030E906 /* TableViewCustomCell */,
+				F65ACDC1207340570030E906 /* TableViewWithInsert */,
+				F65ACDB72070B3870030E906 /* TableViewWithSectionDeleteAndEdit */,
+				F67B25AD2070A7B4005ABB31 /* TableViewWithSections */,
+				F67B25AA2070A409005ABB31 /* ProgrammaticTableView */,
+				F67B25A92070428A005ABB31 /* BasicTableViewStoryboard */,
+				F67B25A5206F575F005ABB31 /* Helpers */,
+				F67B25A82070427A005ABB31 /* Images */,
+				F67B254C206F566F005ABB31 /* AppDelegate.swift */,
+				F67B2553206F566F005ABB31 /* Assets.xcassets */,
+				F67B2555206F566F005ABB31 /* LaunchScreen.storyboard */,
+				F67B2558206F566F005ABB31 /* Info.plist */,
+			);
+			path = TableViewDemo;
+			sourceTree = "<group>";
+		};
+		F67B255F206F56B6005ABB31 /* veggies */ = {
+			isa = PBXGroup;
+			children = (
+				F67B2560206F56B6005ABB31 /* tomatoes.jpg */,
+				F67B2561206F56B6005ABB31 /* kale.jpg */,
+				F67B2562206F56B6005ABB31 /* peas.jpg */,
+				F67B2563206F56B6005ABB31 /* spinach.jpg */,
+				F67B2564206F56B6005ABB31 /* eggplant.jpg */,
+				F67B2565206F56B6005ABB31 /* cabbage.jpg */,
+				F67B2566206F56B6005ABB31 /* pumpkin.jpg */,
+				F67B2567206F56B6005ABB31 /* carrots.jpg */,
+			);
+			path = veggies;
+			sourceTree = "<group>";
+		};
+		F67B2568206F56B6005ABB31 /* SmallVeggieImages */ = {
+			isa = PBXGroup;
+			children = (
+				F67B2569206F56B6005ABB31 /* carrots_small.jpg */,
+				F67B256A206F56B6005ABB31 /* spinach_small.jpg */,
+				F67B256B206F56B6005ABB31 /* peas_small.jpg */,
+				F67B256C206F56B6005ABB31 /* cabbage_small.jpg */,
+				F67B256D206F56B6005ABB31 /* pumpkin_small.jpg */,
+				F67B256E206F56B6005ABB31 /* tomatoes_small.jpg */,
+				F67B256F206F56B6005ABB31 /* kale_small.jpg */,
+				F67B2570206F56B6005ABB31 /* eggplant_small.jpg */,
+			);
+			path = SmallVeggieImages;
+			sourceTree = "<group>";
+		};
+		F67B2571206F56B6005ABB31 /* SmallFruitImages.0 */ = {
+			isa = PBXGroup;
+			children = (
+				F67B2572206F56B6005ABB31 /* fig_small.jpg */,
+				F67B2573206F56B6005ABB31 /* plum_small.jpg */,
+				F67B2574206F56B6005ABB31 /* strawberry_small.jpg */,
+				F67B2575206F56B6005ABB31 /* peach_small.jpg */,
+				F67B2576206F56B6005ABB31 /* blueberries_small.jpg */,
+				F67B2577206F56B6005ABB31 /* oranges_small.jpg */,
+				F67B2578206F56B6005ABB31 /* apple_small.jpg */,
+				F67B2579206F56B6005ABB31 /* appricot_small.jpg */,
+			);
+			path = SmallFruitImages.0;
+			sourceTree = "<group>";
+		};
+		F67B257A206F56B6005ABB31 /* fruits */ = {
+			isa = PBXGroup;
+			children = (
+				F67B257B206F56B6005ABB31 /* peach.jpg */,
+				F67B257C206F56B6005ABB31 /* fig.jpg */,
+				F67B257D206F56B6005ABB31 /* blueberries.jpg */,
+				F67B257E206F56B6005ABB31 /* oranges.jpg */,
+				F67B257F206F56B6005ABB31 /* apple.jpg */,
+				F67B2580206F56B6005ABB31 /* plum.jpg */,
+				F67B2581206F56B6005ABB31 /* strawberry.jpg */,
+				F67B2582206F56B6005ABB31 /* appricot.jpg */,
+			);
+			path = fruits;
+			sourceTree = "<group>";
+		};
+		F67B25A5206F575F005ABB31 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F67B25A3206F574F005ABB31 /* Food.swift */,
+				F67B25A6206F57EB005ABB31 /* FruitsNVeggies.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F67B25A82070427A005ABB31 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F67B257A206F56B6005ABB31 /* fruits */,
+				F67B2571206F56B6005ABB31 /* SmallFruitImages.0 */,
+				F67B2568206F56B6005ABB31 /* SmallVeggieImages */,
+				F67B255F206F56B6005ABB31 /* veggies */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F67B25A92070428A005ABB31 /* BasicTableViewStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				F67B254E206F566F005ABB31 /* ViewController.swift */,
+				F67B2550206F566F005ABB31 /* Main.storyboard */,
+			);
+			path = BasicTableViewStoryboard;
+			sourceTree = "<group>";
+		};
+		F67B25AA2070A409005ABB31 /* ProgrammaticTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F67B25AB2070A427005ABB31 /* ProgrammaticTableViewController.swift */,
+			);
+			path = ProgrammaticTableView;
+			sourceTree = "<group>";
+		};
+		F67B25AD2070A7B4005ABB31 /* TableViewWithSections */ = {
+			isa = PBXGroup;
+			children = (
+				F67B25AE2070A7CA005ABB31 /* TableViewWithSectionsViewController.swift */,
+				F67B25B02070A7E6005ABB31 /* TableViewWithSectionsStoryboard.storyboard */,
+			);
+			path = TableViewWithSections;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F67B2548206F566F005ABB31 /* TableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F67B255B206F566F005ABB31 /* Build configuration list for PBXNativeTarget "TableViewDemo" */;
+			buildPhases = (
+				F67B2545206F566F005ABB31 /* Sources */,
+				F67B2546206F566F005ABB31 /* Frameworks */,
+				F67B2547206F566F005ABB31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewDemo;
+			productName = TableViewDemo;
+			productReference = F67B2549206F566F005ABB31 /* TableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F67B2541206F566F005ABB31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Lane Faison";
+				TargetAttributes = {
+					F67B2548206F566F005ABB31 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F67B2544206F566F005ABB31 /* Build configuration list for PBXProject "TableViewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F67B2540206F566F005ABB31;
+			productRefGroup = F67B254A206F566F005ABB31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F67B2548206F566F005ABB31 /* TableViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F67B2547206F566F005ABB31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67B258C206F56B6005ABB31 /* spinach_small.jpg in Resources */,
+				F67B2557206F566F005ABB31 /* LaunchScreen.storyboard in Resources */,
+				F67B2599206F56B6005ABB31 /* apple_small.jpg in Resources */,
+				F67B2586206F56B6005ABB31 /* spinach.jpg in Resources */,
+				F67B258B206F56B6005ABB31 /* carrots_small.jpg in Resources */,
+				F67B2595206F56B6005ABB31 /* strawberry_small.jpg in Resources */,
+				F67B2589206F56B6005ABB31 /* pumpkin.jpg in Resources */,
+				F67B2594206F56B6005ABB31 /* plum_small.jpg in Resources */,
+				F67B25A2206F56B6005ABB31 /* appricot.jpg in Resources */,
+				F67B2584206F56B6005ABB31 /* kale.jpg in Resources */,
+				F67B2597206F56B6005ABB31 /* blueberries_small.jpg in Resources */,
+				F67B25A1206F56B6005ABB31 /* strawberry.jpg in Resources */,
+				F67B25A0206F56B6005ABB31 /* plum.jpg in Resources */,
+				F67B25B12070A7E6005ABB31 /* TableViewWithSectionsStoryboard.storyboard in Resources */,
+				F67B259F206F56B6005ABB31 /* apple.jpg in Resources */,
+				F67B2593206F56B6005ABB31 /* fig_small.jpg in Resources */,
+				F67B259E206F56B6005ABB31 /* oranges.jpg in Resources */,
+				F67B2590206F56B6005ABB31 /* tomatoes_small.jpg in Resources */,
+				F67B2554206F566F005ABB31 /* Assets.xcassets in Resources */,
+				F67B259B206F56B6005ABB31 /* peach.jpg in Resources */,
+				F65ACDB92070B3A10030E906 /* TableViewWithSectionDeleteStoryboard.storyboard in Resources */,
+				F67B258E206F56B6005ABB31 /* cabbage_small.jpg in Resources */,
+				F65ACDC32073418D0030E906 /* TableViewWithInsert.storyboard in Resources */,
+				F65ACDC72074897E0030E906 /* TableViewCustomCell.storyboard in Resources */,
+				F67B2596206F56B6005ABB31 /* peach_small.jpg in Resources */,
+				F67B258A206F56B6005ABB31 /* carrots.jpg in Resources */,
+				F67B2552206F566F005ABB31 /* Main.storyboard in Resources */,
+				F67B2588206F56B6005ABB31 /* cabbage.jpg in Resources */,
+				F67B258D206F56B6005ABB31 /* peas_small.jpg in Resources */,
+				F67B259D206F56B6005ABB31 /* blueberries.jpg in Resources */,
+				F67B2598206F56B6005ABB31 /* oranges_small.jpg in Resources */,
+				F67B258F206F56B6005ABB31 /* pumpkin_small.jpg in Resources */,
+				F67B259A206F56B6005ABB31 /* appricot_small.jpg in Resources */,
+				F67B2591206F56B6005ABB31 /* kale_small.jpg in Resources */,
+				F67B2587206F56B6005ABB31 /* eggplant.jpg in Resources */,
+				F67B259C206F56B6005ABB31 /* fig.jpg in Resources */,
+				F67B2585206F56B6005ABB31 /* peas.jpg in Resources */,
+				F67B2592206F56B6005ABB31 /* eggplant_small.jpg in Resources */,
+				F67B2583206F56B6005ABB31 /* tomatoes.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F67B2545206F566F005ABB31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67B25AC2070A427005ABB31 /* ProgrammaticTableViewController.swift in Sources */,
+				F67B25A7206F57EB005ABB31 /* FruitsNVeggies.swift in Sources */,
+				F65ACDC9207489970030E906 /* TableViewCustomCellViewController.swift in Sources */,
+				F67B25AF2070A7CA005ABB31 /* TableViewWithSectionsViewController.swift in Sources */,
+				F65ACDBB2070B3B20030E906 /* TableViewWithSectionDeleteViewController.swift in Sources */,
+				F67B25A4206F574F005ABB31 /* Food.swift in Sources */,
+				F65ACDCC2075BD7C0030E906 /* CustomTableViewCell.swift in Sources */,
+				F65ACDC5207341B30030E906 /* TableViewWithInsertViewController.swift in Sources */,
+				F67B254F206F566F005ABB31 /* ViewController.swift in Sources */,
+				F67B254D206F566F005ABB31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F67B2550206F566F005ABB31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F67B2551206F566F005ABB31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F67B2555206F566F005ABB31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F67B2556206F566F005ABB31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F67B2559206F566F005ABB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F67B255A206F566F005ABB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F67B255C206F566F005ABB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34KC4VR7Y2;
+				INFOPLIST_FILE = TableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanefaison.TableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F67B255D206F566F005ABB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34KC4VR7Y2;
+				INFOPLIST_FILE = TableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanefaison.TableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F67B2544206F566F005ABB31 /* Build configuration list for PBXProject "TableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F67B2559206F566F005ABB31 /* Debug */,
+				F67B255A206F566F005ABB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F67B255B206F566F005ABB31 /* Build configuration list for PBXNativeTarget "TableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F67B255C206F566F005ABB31 /* Debug */,
+				F67B255D206F566F005ABB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F67B2541206F566F005ABB31 /* Project object */;
+}

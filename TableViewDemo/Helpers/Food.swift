@@ -1,9 +1,9 @@
 //
 //  Food.swift
-//  LearningTableViews
+//  TableViewDemo
 //
-//  Created by Anoop tomar on 2/7/18.
-//  Copyright © 2018 Devtechie. All rights reserved.
+//  Created by Lane Faison on 3/30/18.
+//  Copyright © 2018 Lane Faison. All rights reserved.
 //
 
 import UIKit

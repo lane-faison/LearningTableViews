@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  LearningTableViews
+//  TableViewDemo
 //
-//  Created by Anoop tomar on 2/7/18.
-//  Copyright © 2018 Devtechie. All rights reserved.
+//  Created by Lane Faison on 3/30/18.
+//  Copyright © 2018 Lane Faison. All rights reserved.
 //
 
 import UIKit
@@ -15,7 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//        let navController = UINavigationController(rootViewController: ProgrammaticTableViewController())
+//        window?.rootViewController = navController
+//        window?.makeKeyAndVisible()
         return true
     }
 
