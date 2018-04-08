@@ -57,6 +57,8 @@
 		F67B25AF2070A7CA005ABB31 /* TableViewWithSectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67B25AE2070A7CA005ABB31 /* TableViewWithSectionsViewController.swift */; };
 		F67B25B12070A7E6005ABB31 /* TableViewWithSectionsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67B25B02070A7E6005ABB31 /* TableViewWithSectionsStoryboard.storyboard */; };
 		F6D4EE4320772F8300859C2C /* ProgrammaticCustomTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4EE4220772F8300859C2C /* ProgrammaticCustomTVC.swift */; };
+		F6D4EE452079DC8A00859C2C /* SelfSizingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4EE442079DC8A00859C2C /* SelfSizingTableViewController.swift */; };
+		F6D4EE472079DCB300859C2C /* SelfSizingTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D4EE462079DCB300859C2C /* SelfSizingTable.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +114,8 @@
 		F67B25AE2070A7CA005ABB31 /* TableViewWithSectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewWithSectionsViewController.swift; sourceTree = "<group>"; };
 		F67B25B02070A7E6005ABB31 /* TableViewWithSectionsStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewWithSectionsStoryboard.storyboard; sourceTree = "<group>"; };
 		F6D4EE4220772F8300859C2C /* ProgrammaticCustomTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticCustomTVC.swift; sourceTree = "<group>"; };
+		F6D4EE442079DC8A00859C2C /* SelfSizingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizingTableViewController.swift; sourceTree = "<group>"; };
+		F6D4EE462079DCB300859C2C /* SelfSizingTable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelfSizingTable.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +176,7 @@
 		F67B254B206F566F005ABB31 /* TableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F6D4EE482079DCB900859C2C /* SelfSizingTable */,
 				F6D4EE4120772F2B00859C2C /* ProgrammaticCustomTVC */,
 				F65ACDCA2074899E0030E906 /* TableViewCustomCell */,
 				F65ACDC1207340570030E906 /* TableViewWithInsert */,
@@ -303,6 +308,15 @@
 			path = ProgrammaticCustomTVC;
 			sourceTree = "<group>";
 		};
+		F6D4EE482079DCB900859C2C /* SelfSizingTable */ = {
+			isa = PBXGroup;
+			children = (
+				F6D4EE442079DC8A00859C2C /* SelfSizingTableViewController.swift */,
+				F6D4EE462079DCB300859C2C /* SelfSizingTable.storyboard */,
+			);
+			path = SelfSizingTable;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -385,6 +399,7 @@
 				F65ACDB92070B3A10030E906 /* TableViewWithSectionDeleteStoryboard.storyboard in Resources */,
 				F67B258E206F56B6005ABB31 /* cabbage_small.jpg in Resources */,
 				F65ACDC32073418D0030E906 /* TableViewWithInsert.storyboard in Resources */,
+				F6D4EE472079DCB300859C2C /* SelfSizingTable.storyboard in Resources */,
 				F65ACDC72074897E0030E906 /* TableViewCustomCell.storyboard in Resources */,
 				F67B2596206F56B6005ABB31 /* peach_small.jpg in Resources */,
 				F67B258A206F56B6005ABB31 /* carrots.jpg in Resources */,
@@ -414,6 +429,7 @@
 				F67B25AC2070A427005ABB31 /* ProgrammaticTableViewController.swift in Sources */,
 				F67B25A7206F57EB005ABB31 /* FruitsNVeggies.swift in Sources */,
 				F65ACDC9207489970030E906 /* TableViewCustomCellViewController.swift in Sources */,
+				F6D4EE452079DC8A00859C2C /* SelfSizingTableViewController.swift in Sources */,
 				F67B25AF2070A7CA005ABB31 /* TableViewWithSectionsViewController.swift in Sources */,
 				F65ACDBB2070B3B20030E906 /* TableViewWithSectionDeleteViewController.swift in Sources */,
 				F67B25A4206F574F005ABB31 /* Food.swift in Sources */,

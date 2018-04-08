@@ -21,10 +21,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //        window?.rootViewController = navController
         //        window?.makeKeyAndVisible()
         
-        window = UIWindow(frame: UIScreen.main.bounds)
-        let navController = UINavigationController(rootViewController: ProgrammaticCustomTVC())
-        window?.rootViewController = navController
-        window?.makeKeyAndVisible()
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//        let navController = UINavigationController(rootViewController: ProgrammaticCustomTVC())
+//        window?.rootViewController = navController
+//        window?.makeKeyAndVisible()
         return true
     }
     
