@@ -59,6 +59,9 @@
 		F6D4EE4320772F8300859C2C /* ProgrammaticCustomTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4EE4220772F8300859C2C /* ProgrammaticCustomTVC.swift */; };
 		F6D4EE452079DC8A00859C2C /* SelfSizingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4EE442079DC8A00859C2C /* SelfSizingTableViewController.swift */; };
 		F6D4EE472079DCB300859C2C /* SelfSizingTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D4EE462079DCB300859C2C /* SelfSizingTable.storyboard */; };
+		F6D4EE4A207AEBA500859C2C /* StaticTableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D4EE49207AEBA500859C2C /* StaticTableView.storyboard */; };
+		F6D4EE4C207AEBB400859C2C /* StaticTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4EE4B207AEBB400859C2C /* StaticTableViewController.swift */; };
+		F6D4EE4F207AED9000859C2C /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4EE4E207AED9000859C2C /* DetailsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +119,9 @@
 		F6D4EE4220772F8300859C2C /* ProgrammaticCustomTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticCustomTVC.swift; sourceTree = "<group>"; };
 		F6D4EE442079DC8A00859C2C /* SelfSizingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizingTableViewController.swift; sourceTree = "<group>"; };
 		F6D4EE462079DCB300859C2C /* SelfSizingTable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelfSizingTable.storyboard; sourceTree = "<group>"; };
+		F6D4EE49207AEBA500859C2C /* StaticTableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StaticTableView.storyboard; sourceTree = "<group>"; };
+		F6D4EE4B207AEBB400859C2C /* StaticTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableViewController.swift; sourceTree = "<group>"; };
+		F6D4EE4E207AED9000859C2C /* DetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +182,7 @@
 		F67B254B206F566F005ABB31 /* TableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F6D4EE4D207AEBBB00859C2C /* StaticTableView */,
 				F6D4EE482079DCB900859C2C /* SelfSizingTable */,
 				F6D4EE4120772F2B00859C2C /* ProgrammaticCustomTVC */,
 				F65ACDCA2074899E0030E906 /* TableViewCustomCell */,
@@ -317,6 +324,16 @@
 			path = SelfSizingTable;
 			sourceTree = "<group>";
 		};
+		F6D4EE4D207AEBBB00859C2C /* StaticTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F6D4EE49207AEBA500859C2C /* StaticTableView.storyboard */,
+				F6D4EE4B207AEBB400859C2C /* StaticTableViewController.swift */,
+				F6D4EE4E207AED9000859C2C /* DetailsTableViewController.swift */,
+			);
+			path = StaticTableView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -390,6 +407,7 @@
 				F67B25A1206F56B6005ABB31 /* strawberry.jpg in Resources */,
 				F67B25A0206F56B6005ABB31 /* plum.jpg in Resources */,
 				F67B25B12070A7E6005ABB31 /* TableViewWithSectionsStoryboard.storyboard in Resources */,
+				F6D4EE4A207AEBA500859C2C /* StaticTableView.storyboard in Resources */,
 				F67B259F206F56B6005ABB31 /* apple.jpg in Resources */,
 				F67B2593206F56B6005ABB31 /* fig_small.jpg in Resources */,
 				F67B259E206F56B6005ABB31 /* oranges.jpg in Resources */,
@@ -430,6 +448,7 @@
 				F67B25A7206F57EB005ABB31 /* FruitsNVeggies.swift in Sources */,
 				F65ACDC9207489970030E906 /* TableViewCustomCellViewController.swift in Sources */,
 				F6D4EE452079DC8A00859C2C /* SelfSizingTableViewController.swift in Sources */,
+				F6D4EE4C207AEBB400859C2C /* StaticTableViewController.swift in Sources */,
 				F67B25AF2070A7CA005ABB31 /* TableViewWithSectionsViewController.swift in Sources */,
 				F65ACDBB2070B3B20030E906 /* TableViewWithSectionDeleteViewController.swift in Sources */,
 				F67B25A4206F574F005ABB31 /* Food.swift in Sources */,
@@ -437,6 +456,7 @@
 				F65ACDC5207341B30030E906 /* TableViewWithInsertViewController.swift in Sources */,
 				F6D4EE4320772F8300859C2C /* ProgrammaticCustomTVC.swift in Sources */,
 				F67B254F206F566F005ABB31 /* ViewController.swift in Sources */,
+				F6D4EE4F207AED9000859C2C /* DetailsTableViewController.swift in Sources */,
 				F67B254D206F566F005ABB31 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
