@@ -62,6 +62,8 @@
 		F6D4EE4A207AEBA500859C2C /* StaticTableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D4EE49207AEBA500859C2C /* StaticTableView.storyboard */; };
 		F6D4EE4C207AEBB400859C2C /* StaticTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4EE4B207AEBB400859C2C /* StaticTableViewController.swift */; };
 		F6D4EE4F207AED9000859C2C /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4EE4E207AED9000859C2C /* DetailsTableViewController.swift */; };
+		F6D4EE52207DC41100859C2C /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4EE51207DC41100859C2C /* SearchTableViewController.swift */; };
+		F6D4EE54207DC42000859C2C /* SearchTableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D4EE53207DC42000859C2C /* SearchTableView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -122,6 +124,8 @@
 		F6D4EE49207AEBA500859C2C /* StaticTableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StaticTableView.storyboard; sourceTree = "<group>"; };
 		F6D4EE4B207AEBB400859C2C /* StaticTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableViewController.swift; sourceTree = "<group>"; };
 		F6D4EE4E207AED9000859C2C /* DetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
+		F6D4EE51207DC41100859C2C /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		F6D4EE53207DC42000859C2C /* SearchTableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchTableView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +186,7 @@
 		F67B254B206F566F005ABB31 /* TableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F6D4EE50207DC3E700859C2C /* SearchTableView */,
 				F6D4EE4D207AEBBB00859C2C /* StaticTableView */,
 				F6D4EE482079DCB900859C2C /* SelfSizingTable */,
 				F6D4EE4120772F2B00859C2C /* ProgrammaticCustomTVC */,
@@ -334,6 +339,15 @@
 			path = StaticTableView;
 			sourceTree = "<group>";
 		};
+		F6D4EE50207DC3E700859C2C /* SearchTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F6D4EE51207DC41100859C2C /* SearchTableViewController.swift */,
+				F6D4EE53207DC42000859C2C /* SearchTableView.storyboard */,
+			);
+			path = SearchTableView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -393,6 +407,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6D4EE54207DC42000859C2C /* SearchTableView.storyboard in Resources */,
 				F67B258C206F56B6005ABB31 /* spinach_small.jpg in Resources */,
 				F67B2557206F566F005ABB31 /* LaunchScreen.storyboard in Resources */,
 				F67B2599206F56B6005ABB31 /* apple_small.jpg in Resources */,
@@ -451,6 +466,7 @@
 				F6D4EE4C207AEBB400859C2C /* StaticTableViewController.swift in Sources */,
 				F67B25AF2070A7CA005ABB31 /* TableViewWithSectionsViewController.swift in Sources */,
 				F65ACDBB2070B3B20030E906 /* TableViewWithSectionDeleteViewController.swift in Sources */,
+				F6D4EE52207DC41100859C2C /* SearchTableViewController.swift in Sources */,
 				F67B25A4206F574F005ABB31 /* Food.swift in Sources */,
 				F65ACDCC2075BD7C0030E906 /* CustomTableViewCell.swift in Sources */,
 				F65ACDC5207341B30030E906 /* TableViewWithInsertViewController.swift in Sources */,
