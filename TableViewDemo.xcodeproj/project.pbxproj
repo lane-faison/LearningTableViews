@@ -64,6 +64,8 @@
 		F6D4EE4F207AED9000859C2C /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4EE4E207AED9000859C2C /* DetailsTableViewController.swift */; };
 		F6D4EE52207DC41100859C2C /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4EE51207DC41100859C2C /* SearchTableViewController.swift */; };
 		F6D4EE54207DC42000859C2C /* SearchTableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D4EE53207DC42000859C2C /* SearchTableView.storyboard */; };
+		F6D4EE5720840CD300859C2C /* ActionButtonsTableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D4EE5620840CD300859C2C /* ActionButtonsTableView.storyboard */; };
+		F6D4EE5920840CE300859C2C /* ActionButtonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4EE5820840CE300859C2C /* ActionButtonsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -126,6 +128,8 @@
 		F6D4EE4E207AED9000859C2C /* DetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
 		F6D4EE51207DC41100859C2C /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		F6D4EE53207DC42000859C2C /* SearchTableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchTableView.storyboard; sourceTree = "<group>"; };
+		F6D4EE5620840CD300859C2C /* ActionButtonsTableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ActionButtonsTableView.storyboard; sourceTree = "<group>"; };
+		F6D4EE5820840CE300859C2C /* ActionButtonsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +190,7 @@
 		F67B254B206F566F005ABB31 /* TableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F6D4EE5520840CBB00859C2C /* ActionButtonsTableView */,
 				F6D4EE50207DC3E700859C2C /* SearchTableView */,
 				F6D4EE4D207AEBBB00859C2C /* StaticTableView */,
 				F6D4EE482079DCB900859C2C /* SelfSizingTable */,
@@ -348,6 +353,15 @@
 			path = SearchTableView;
 			sourceTree = "<group>";
 		};
+		F6D4EE5520840CBB00859C2C /* ActionButtonsTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F6D4EE5620840CD300859C2C /* ActionButtonsTableView.storyboard */,
+				F6D4EE5820840CE300859C2C /* ActionButtonsTableViewController.swift */,
+			);
+			path = ActionButtonsTableView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -439,6 +453,7 @@
 				F67B2552206F566F005ABB31 /* Main.storyboard in Resources */,
 				F67B2588206F56B6005ABB31 /* cabbage.jpg in Resources */,
 				F67B258D206F56B6005ABB31 /* peas_small.jpg in Resources */,
+				F6D4EE5720840CD300859C2C /* ActionButtonsTableView.storyboard in Resources */,
 				F67B259D206F56B6005ABB31 /* blueberries.jpg in Resources */,
 				F67B2598206F56B6005ABB31 /* oranges_small.jpg in Resources */,
 				F67B258F206F56B6005ABB31 /* pumpkin_small.jpg in Resources */,
@@ -464,6 +479,7 @@
 				F65ACDC9207489970030E906 /* TableViewCustomCellViewController.swift in Sources */,
 				F6D4EE452079DC8A00859C2C /* SelfSizingTableViewController.swift in Sources */,
 				F6D4EE4C207AEBB400859C2C /* StaticTableViewController.swift in Sources */,
+				F6D4EE5920840CE300859C2C /* ActionButtonsTableViewController.swift in Sources */,
 				F67B25AF2070A7CA005ABB31 /* TableViewWithSectionsViewController.swift in Sources */,
 				F65ACDBB2070B3B20030E906 /* TableViewWithSectionDeleteViewController.swift in Sources */,
 				F6D4EE52207DC41100859C2C /* SearchTableViewController.swift in Sources */,
